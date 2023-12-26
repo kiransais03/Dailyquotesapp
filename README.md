@@ -1,11 +1,60 @@
-# Sample Snack app
+# Daily Quotes App(iOS) :
 
-Open the `App.js` file to start writing some code. You can preview the changes directly on your phone or tablet by scanning the **QR code** or use the iOS or Android emulators. When you're done, click **Save** and share the link!
+##### Technologies Used : React Native,Expo
 
-When you're ready to see everything that Expo provides (or if you want to use your own editor) you can **Download** your project and use it with [expo cli](https://docs.expo.dev/get-started/installation/#expo-cli)).
+#### Dev Tools : VS Code,Github,Snack(Expo)
 
-All projects created in Snack are publicly available, so you can easily share the link to this project via link, or embed it on a web page with the `<>` button.
+#### iOS App Development Approach :
 
-If you're having problems, you can tweet to us [@expo](https://twitter.com/expo) or ask in our [forums](https://forums.expo.dev/c/expo-dev-tools/61) or [Discord](https://chat.expo.dev/).
+--This app is developed on React Native Framework using Expo.
 
-Snack is Open Source. You can find the code on the [GitHub repo](https://github.com/expo/snack).
+--Initialize the project by installing "eas cli" and create react native app.
+
+--Then the template of the React Native is similar to React App,all the state management methods like Hooks are all same.
+
+--In React Native there are predifined components are available like Buttons,Actions etc basing on Android or iOS default standards.
+
+--I have created two components namely Logo and Quote as the name sugests one for displaying Logo image and anther for displaying Quote data along with author name.
+
+--Then a Button is added to facilitate the user to manually refresh the Quote.
+
+--Generally the process is when we open the app first it will check for the date stored in AsyncStorage if present and compare it with the current date,if they are different it means
+  the day is changed and the Quote Of the Day will be refreshed automatically.
+
+--Along with it the background hue will also be changed randomly.User can press on Refresh Daily Quote button to get the new  quote.
+
+--I used  Snack(Expo) online editor and then imported to VS Code for export the code to Local Build for iOS.
+
+
+### API End Points For Getting Quotes : "https://zenquotes.io/api/random"
+   
+    -- Each time of call it will give a new quote.
+
+### Steps Required To Initialize And Run Application :
+
+#### Project Intilizing :
+-- "npx create-expo-app --template"    - To create new app
+
+-- "npm start"   - To start the app
+
+-- "npx expo start"   -- Another command to start the app
+
+#### Project Builds
+
+-- "npm install -g eas-cli"  --For installing eas Command Line Interface
+
+-- "npx expo install expo-dev-client"   --For installing expo dev client
+
+-- "eas login"       --Create an expo account by opening "www.expo.dev" website and using those credentials login in the terminal of VS Code to connect the repo.
+
+-- "eas build:configure "  --To configure the build and select iOS when it prompts.
+
+-- "eas build -p ios --profile preview"  --Preview keyword in this cmd means to build Local Installable App for iOS.If you need production build you need to have Appstore Developer 
+                                            Membership credentials.
+
+  After the build is complete.Go to www.expo.dev website.In projects your new build will be present,by clicking on it we can download the App.
+  
+### Snack Online Editor Link :  https://snack.expo.dev/@kiransais03/daily-quotes-app
+
+### Attaching Drive Link For iOS App Download :  https://drive.google.com/drive/folders/1lE8VlojJIQNvMlfGM04yTGpnrzpWZtlU
+
