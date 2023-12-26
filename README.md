@@ -58,3 +58,13 @@
 
 ### Attaching Drive Link For iOS App Download :  https://drive.google.com/drive/folders/1lE8VlojJIQNvMlfGM04yTGpnrzpWZtlU
 
+#### Note : 
+–As mentioned in Assignment,Sharing and Saving Quote Image,Widget functionality.I haven’t implemented them.
+–The reason is,as from my learnings those can only be implemented from Mac Device using X Code.
+–I have Windows Laptop which is not compatable for iOS development.
+–Apologies, for it.
+
+Thank You.
+Guduru Kiran Sai.
+Ph.No.6302854263
+Email : kiransais03@gmail.com
